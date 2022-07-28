@@ -40,6 +40,27 @@ return(
                                 <AiOutlineHome style={{marginBottom: "2px"}}/>Home
                             </Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link as={Link} to="/" onClick={()=> updateExpanded(false)}>
+                                <AiOutlineUser style={{marginBottom: "2px"}}/>About
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link as={Link} to="/" onClick={()=> updateExpanded(false)}>
+                                <AiOutlineFundProjectionScreen style={{marginBottom: "2px"}}/>Projects
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link as={Link} to="/" onClick={()=> updateExpanded(false)}>
+                                <CgFileDocument style={{marginBottom: "2px"}}/>Resume
+                            </Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item className="fork-btn">
+                            <Button href="#" target="_blank" className="fork-btn-inner">
+                            <CgGitFork style={{fontSize: "1.2em"}}/>{" "}
+                            <AiFillStar style={{fontSize: "1.1em"}}/>
+                            </Button>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
