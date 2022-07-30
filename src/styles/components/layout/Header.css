@@ -10,6 +10,12 @@
     padding: 0.3rem 2rem !important;
     font-size: 1.2rem !important;
     }
+
+.brand{
+    font-family: 'Karla', sans-serif;
+    font-weight: 100;
+    color: #ffffff;
+}
 .navbar-toggler{
     position:relative !important;
     background-color: transparent !important;
@@ -17,7 +23,7 @@
 }
 .navbar-toggler span{
     display: block !important;
-    background-color: #be50fa !important;
+    background-color: #ff7e05 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -65,15 +71,22 @@
 }
 .fork-btn-inner{
     line-height: 1.4em !important;
-    background-color: #934cce5e;
+    background-color:#ff7e05;
     padding: 0.25rem 1.1rem !important;
     vertical-align: middle !important;
     text-align: center !important;
+    border:#ff7e05;
 }
 .fork-btn-inner:hover{
     transform: translateY(-2px)!important;
-    background-color: #a24dd386 !important;
-    border-color: #a24dd386 !important;
+    background-color: #ff9735 !important;
+    border-color: #ff9735 !important;
+}
+
+.fork-btn-inner:focus{
+    background-color:white;
+    color:#ff7e05;
+    box-shadow: none !important;
 }
 
 @media (max-width:767px){
@@ -106,13 +119,15 @@
 
 }
 
-@media (max-width:767px){
+@media (min-width:767px){
     .nav-link{
         padding:0.7rem 1rem !important;
+        color:white;
     }
     .navbar-nav .nav-item{
         position:relative;
         margin-left: 20px;
+        
     }
 
     .navbar-nav .nav-item a {
@@ -129,7 +144,7 @@
         height: 5px;
         width: 0;
         border-radius: 16px;
-        background: #c95bf5;
+        background: #ff7e05;
         bottom:1px;
         left:0;
         z-index: -1;

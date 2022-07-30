@@ -1,12 +1,13 @@
-import "./style.css";
 import React, {useState} from "react";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/container";
 import Button from "react-bootstrap/button";
 import { Link } from "react-router-dom";
-import {CgGitFork, CgFileDocument} from 'react-icons/cg';
-import {AiFillStar, AiOutlineHome,AiOutlineFundProjectionScreen,AiOutlineUser} from "react-icons/ai";
+import {CgFileDocument} from 'react-icons/cg';
+import {AiOutlineHome,AiOutlineFundProjectionScreen,AiOutlineUser} from "react-icons/ai";
+import '../../styles/components/layout/Header.css';
+import {FiGithub} from 'react-icons/fi';
 
 function NavBar(){
 const [expand, updateExpanded] = useState(false);
@@ -26,7 +27,7 @@ return(
         <Navbar expanded={expand} fixed='top' expand='md' className={navColour ? "sticky" : "navbar"}>
             <Container>
                 <Navbar.Brand href="/" className="d-flex">
-                    <img src="./favicon.ico"className="img-fluid logo" alt="logo" />
+                    <h4 className="brand d=flex">Diego Cartelle</h4>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={()=>{updateExpanded(expand ? false : "expanded");}}>
                     <span></span>
@@ -57,8 +58,7 @@ return(
                         </Nav.Item>
                         <Nav.Item className="fork-btn">
                             <Button href="#" target="_blank" className="fork-btn-inner">
-                            <CgGitFork style={{fontSize: "1.2em"}}/>{" "}
-                            <AiFillStar style={{fontSize: "1.1em"}}/>
+                            <FiGithub style={{fontSize: "1.2em"}}/>{" "}
                             </Button>
                         </Nav.Item>
                     </Nav>
