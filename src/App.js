@@ -7,6 +7,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import Projects from "./pages/projects";
 import Resume from "./pages/resume";
+import Contact from "./pages/contact";
 import ScrollToTop from "./components/layout/ScrollToTop";
 import Particle from "./components/particle";
 import "./App.css";
@@ -34,6 +35,7 @@ export default function App() {
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
+          <Route path="/contact" component={Contact} />
           
         </Switch>
       </div>

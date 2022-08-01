@@ -1,0 +1,66 @@
+:root{
+    --primary:#ff7e05;
+}
+.con_ico{
+    color: var(--primary);
+}
+
+.contact-section {
+	position: relative !important;
+	padding-top: 150px !important;
+	padding-bottom: 30px !important;
+	background-image: #fff !important;
+	color: white !important;
+	height: 700px;
+}
+.contact {
+	display: flex;
+	flex-direction: column;
+	width: 375px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact > div {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 15px auto;
+	gap: 1rem;
+}
+.con-det {
+	font-size: 24px;
+	margin: 0;
+	color: white;
+}
+.con-det:hover {
+	color: white;
+	box-shadow: 0 0 10px #ff7e05;
+}
+@media (max-width: 375px) {
+	.contact {
+		display: flex;
+		flex-direction: column;
+		width: 296px;
+		margin: auto;
+	}
+	.con-det {
+		font-size: 18px;
+		margin: 0;
+	}
+	.home-social-icons {
+		position: relative !important;
+		display: inline-block !important;
+		width: 2em !important;
+		height: 2em !important;
+		text-align: center !important;
+		font-size: 16px !important;
+		line-height: 2em !important;
+		background: rgba(255, 255, 255, 0.972) !important;
+		border-radius: 50% !important;
+		transition: 0.5s !important;
+        color:#ff7e05;
+	}
+}
