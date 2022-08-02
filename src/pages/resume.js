@@ -28,7 +28,7 @@ function ResumeNew() {
 						<CardMedia
 							className="cardmedia"
 							component="iframe"
-							Height="1056px"
+							height="1056px"
 							src="https://drive.google.com/file/d/1ym8GjIGp8BN7w6nxxEvzACOGhw_l3AXD/preview"
 						/>
 					</Card>
