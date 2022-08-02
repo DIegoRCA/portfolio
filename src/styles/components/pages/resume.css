@@ -1,11 +1,26 @@
-:root{
-    --primary:#ff7e05;
+.filebutton{
+    background-color:var(--primary);
+	border:none;
 }
+.filebutton:hover{
+    background-color:rgba(255, 126, 5,0.5);
+	border-color:none;
+	box-shadow: none!important;
+}
+.filebutton:focus{
+    background-color:rgb(255, 126, 5);
+	box-shadow:none !important;}
+
+.filebutton:active{
+border-color:rgb(255, 126, 5)!important;
+box-shadow: rgb(255, 126, 5)!important;
+}
+
 .resume-section {
 	position: relative !important;
 	padding-top: 110px !important;
 	padding-bottom: 30px !important;
-	background-image: var(--section-background-color) !important;
+	background-image: rgb(255, 126, 5)!important;
 	color: white !important;
 }
 
@@ -44,14 +59,14 @@
 .resume .resume-item {
 	padding: 0 0 10px 25px;
 	margin-top: -2px;
-	border-left: 2px solid #8a49a8;
+	border-left: 2px solid #ff7e05;
 	position: relative;
 }
 
 .resume .resume-item .resume-title {
 	line-height: 18px;
 	font-size: 0.9em;
-	background: #5234795d;
+	background: #8a70ac5d;
 	padding: 8px 15px;
 	display: inline-block;
 	font-weight: 600;
@@ -81,7 +96,7 @@
 	left: -9px;
 	top: 0;
 	background: #fff;
-	border: 2px solid #8a49a8;
+	border: 2px solid #ff7e05;
 }
 
 .like-item {
@@ -91,8 +106,8 @@
 }
 
 .like-btn {
-	background-color: #934cce5e !important;
-	border-color: #934cce5e !important;
+	background-color: #ff7e05 !important;
+	border-color: #ff7e05 !important;
 	padding: 0.25rem 0.98rem !important;
 	border-radius: 5px !important;
 	line-height: 1.4 !important;
@@ -101,8 +116,8 @@
 
 .like-btn:hover {
 	transform: translateY(-2px) !important;
-	background-color: #a24dd386 !important;
-	border-color: #a24dd386 !important;
+	background-color: #ff7e05 !important;
+	border-color: #ff7e05 !important;
 }
 
 .animate-like {

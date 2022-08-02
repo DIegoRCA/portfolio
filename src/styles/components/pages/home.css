@@ -145,9 +145,9 @@
   }
   
   .home-social-icons:hover {
-    color: #87209e;
-    box-shadow: 0 0 5px #87209e;
-    text-shadow: 0 0 2px #87209e;
+    color: #ff7e05;
+    box-shadow: 0 0 5px #ff7e05;
+    text-shadow: 0 0 2px #ff7e05;
   }
   
   .social-icons {
@@ -173,3 +173,4 @@
       padding-bottom: 2em !important;
     }
   }
+  

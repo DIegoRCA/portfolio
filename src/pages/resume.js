@@ -1,25 +1,20 @@
-import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Card, CardMedia } from "@mui/material";
 import "../styles/components/pages/resume.css";
 function ResumeNew() {
-	const [width, setWidth] = useState(1200);
-
-	useEffect(() => {
-		setWidth(window.innerWidth);
-	}, []);
+	
 
 	return (
 		<div>
 			<Container fluid className="resume-section">
 				
 				<Row style={{ justifyContent: "center", position: "relative" }}>
-					<Button
-						variant="primary"
+					<Button 
+						className="filebutton"
 						href={
-							"https://drive.google.com/uc?export=download&id=13YNqvTbDnhzBVVPY6IUlvGA_ZsZZuxPu"
+							"https://drive.google.com/uc?export=download&id=1ym8GjIGp8BN7w6nxxEvzACOGhw_l3AXD"
 						}
 						target="_blank"
 					>
@@ -34,16 +29,16 @@ function ResumeNew() {
 							className="cardmedia"
 							component="iframe"
 							Height="1056px"
-							src="https://drive.google.com/file/d/13YNqvTbDnhzBVVPY6IUlvGA_ZsZZuxPu/preview"
+							src="https://drive.google.com/file/d/1ym8GjIGp8BN7w6nxxEvzACOGhw_l3AXD/preview"
 						/>
 					</Card>
 				</Row>
 
 				<Row style={{ justifyContent: "center", position: "relative" }}>
 					<Button
-						variant="primary"
+						className="filebutton"
 						href={
-							"https://drive.google.com/uc?export=download&id=13YNqvTbDnhzBVVPY6IUlvGA_ZsZZuxPu"
+							"https://drive.google.com/uc?export=download&id=1ym8GjIGp8BN7w6nxxEvzACOGhw_l3AXD"
 						}
 						target="_blank"
 					>

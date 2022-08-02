@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import Home2 from "../components/layout/Home2"
 import { Type } from "../components/layout/Type";
 import "../styles/components/pages/home.css";
 function Home() {
@@ -25,8 +26,14 @@ function Home() {
                 <img src={"17.gif"} alt="home pic" className="img-fluid" />
               </Col>
             </Row>
+            
           </Container>
+          <Container>
+            <Row><Home2/></Row>
+          
         </Container>
+        </Container>
+        
     </>
   );
 };
