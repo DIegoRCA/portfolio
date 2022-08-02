@@ -73,7 +73,7 @@ return(
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="fork-btn">
-                            <Button href="#" target="_blank" className="fork-btn-inner">
+                            <Button href="" target="_blank" className="fork-btn-inner">
                             <FiGithub style={{fontSize: "1.2em"}}/>{" "}
                             </Button>
                         </Nav.Item>

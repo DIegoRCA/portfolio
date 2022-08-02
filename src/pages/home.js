@@ -23,7 +23,7 @@ function Home() {
                   <Type />
                 </div>
               </Col>
-              <Col md={5} style={{ paddingBottom: 20 }}>
+              <Col md={5} style={{ paddingBottom: 0}}>
                 <Tilt>
                 <img src={"diego.png"} alt="home pic" className="img-fluid"/>
                 </Tilt>
@@ -31,7 +31,9 @@ function Home() {
             </Row>            
           </Container>
           <Container className="conHome2">
+            <Row className="rowHome2 d-flex w-100">
             <Home2 className="home2"/>
+            </Row>
             </Container>
         </Container>
         
