@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import Home2 from "../components/layout/Home2"
 import { Type } from "../components/layout/Type";
+import Tilt from "react-parallax-tilt";
 import "../styles/components/pages/home.css";
 function Home() {
   return (
@@ -23,15 +24,15 @@ function Home() {
                 </div>
               </Col>
               <Col md={5} style={{ paddingBottom: 20 }}>
-                <img src={"17.gif"} alt="home pic" className="img-fluid" />
+                <Tilt>
+                <img src={"diego.png"} alt="home pic" className="img-fluid"/>
+                </Tilt>
               </Col>
-            </Row>
-            
+            </Row>            
           </Container>
-          <Container>
-            <Row><Home2/></Row>
-          
-        </Container>
+          <Container className="conHome2">
+            <Home2 className="home2"/>
+            </Container>
         </Container>
         
     </>

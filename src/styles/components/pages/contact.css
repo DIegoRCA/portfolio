@@ -1,16 +1,11 @@
 :root{
     --primary:#ff7e05;
 }
-.con_ico{
-    color: var(--primary);
-}
 
 .contact-section {
 	position: relative !important;
 	padding-top: 150px !important;
 	padding-bottom: 30px !important;
-	background-image: #fff !important;
-	color: white !important;
 	height: 700px;
 }
 .contact {
@@ -31,13 +26,16 @@
 	gap: 1rem;
 }
 .con-det {
+	text-decoration: none!important;
 	font-size: 24px;
-	margin: 0;
-	color: white;
+	color: rgb(255, 255, 255);
 }
 .con-det:hover {
-	color: white;
-	box-shadow: 0 0 10px #ff7e05;
+	color: #ff7e05;
+	box-shadow: 5px 5px 5px rgba(255, 126, 5, 0.5);
+	padding: 10px;
+	border-radius: 5px;
+
 }
 @media (max-width: 375px) {
 	.contact {
@@ -50,6 +48,7 @@
 		font-size: 18px;
 		margin: 0;
 	}
+
 	.home-social-icons {
 		position: relative !important;
 		display: inline-block !important;

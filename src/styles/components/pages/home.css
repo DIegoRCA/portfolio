@@ -67,7 +67,7 @@
   }
   
   .Typewriter__wrapper {
-    font-size: 2.2em !important;
+    font-size: 2em !important;
     color: #ff7e05 !important;
     font-weight: 600 !important;
   }
@@ -82,14 +82,13 @@
   
   .home-about-section {
     position: relative;
-    padding-bottom: 70px !important;
   }
   
   .home-about-description {
-    color: white !important;
-    padding-top: 100px !important;
-    padding-bottom: 20px !important;
-    text-align: center;
+    display: block;
+        color: white !important;
+    justify-content: center;
+    padding-bottom: 25px !important;
   }
   
   .home-about-body {
@@ -100,7 +99,7 @@
   
   .home-about-social {
     text-align: center !important;
-    padding-top: 25px;
+    padding-top: 50px;
     color: white !important;
   }
   
@@ -159,18 +158,16 @@
   .icon-colour {
     color: #ff7e05 !important;
   }
-  
-  .myImage {
-    border-radius: 50%;
-    margin-left: 20%;
-    height: 18rem;
-    width: 18rem;
-  }
-  
+.conHome2{
+justify-content:center;
+}
   @media (max-width: 767px) {
     .myAvtar {
       padding-top: 2em !important;
       padding-bottom: 2em !important;
     }
   }
-  
+  .home2{
+    display:flex;
+    justify-content: center;
+  }

@@ -1,8 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
@@ -25,8 +23,8 @@ function Contact() {
                     className="con_ico"
                     sx={{ fontSize: 45 }}
                   />
-                  <a href="tel:+917069896660" className="con-det">
-                    +61 0449007723
+                  <a href="tel:+61449007723" className="con-det">
+                    +61 449007723
                   </a>
                 </div>
                 <div>
