@@ -3,6 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import Home2 from "../components/layout/Home2"
 import { Type } from "../components/layout/Type";
 import Tilt from "react-parallax-tilt";
+import Diego from "../assets/diego.gif";
 import "../styles/components/pages/home.css";
 function Home() {
   return (
@@ -25,7 +26,7 @@ function Home() {
               </Col>
               <Col md={5} style={{ paddingBottom: 0}}>
                 <Tilt>
-                <img src={"diego.png"} alt="home pic" className="img-fluid"/>
+                <img src={Diego} alt="home pic" className="img-fluid"/>
                 </Tilt>
               </Col>
             </Row>            
