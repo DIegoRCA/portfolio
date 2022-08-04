@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/container";
+import {Container} from "react-bootstrap";
 import Button from "react-bootstrap/button";
 import { Link } from "react-router-dom";
 import {CgFileDocument} from 'react-icons/cg';
