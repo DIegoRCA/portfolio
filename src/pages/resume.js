@@ -1,5 +1,5 @@
 import { Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+import {Button} from "react-bootstrap";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Card, CardMedia } from "@mui/material";
 import "../styles/components/pages/resume.css";
