@@ -14,10 +14,53 @@ code {
     monospace;
 }
 
-html{
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17,16,16,0.582),
-    rgba(12,8,24,0.904),
-  )
+
+/* --------- */
+/*  Preloader */
+/* --------- */
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999999;
+	background-color: #0c0513;
+	background-image: url(./assets/pre.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#preloader-none {
+	opacity: 0;
+}
+
+#no-scroll {
+	overflow: hidden;
+	height: 100vh;
+}
+
+/* --------- */
+/*Scrollbar   */
+/* --------- */
+
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #ff9735;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 151, 53,0.5);
+	border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 151, 53,0.911);
+	border-radius: 12px;
 }

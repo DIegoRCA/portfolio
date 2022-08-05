@@ -4,10 +4,10 @@ import Nav from "react-bootstrap/Nav";
 import {Container} from "react-bootstrap";
 import Button from "react-bootstrap/button";
 import { Link } from "react-router-dom";
-import {CgFileDocument} from 'react-icons/cg';
-import {AiOutlineContacts,AiOutlineHome,AiOutlineFundProjectionScreen,AiOutlineUser} from "react-icons/ai";
+import { CgFileDocument } from 'react-icons/cg';
+import { AiOutlineContacts,AiOutlineHome,AiOutlineFundProjectionScreen,AiOutlineUser } from "react-icons/ai";
+import { FiGithub } from 'react-icons/fi';
 import '../../styles/components/layout/Header.css';
-import {FiGithub} from 'react-icons/fi';
 
 function NavBar(){
 const [expand, updateExpanded] = useState(false);
@@ -73,7 +73,7 @@ return(
                             </Nav.Link>
                         </Nav.Item>
                         <Nav.Item className="fork-btn">
-                            <Button href="" target="_blank" className="fork-btn-inner">
+                            <Button href="https://github.com/DIegoRCA" target="_blank" className="fork-btn-inner">
                             <FiGithub style={{fontSize: "1.2em"}}/>{" "}
                             </Button>
                         </Nav.Item>

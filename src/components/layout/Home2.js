@@ -52,7 +52,7 @@ function Home2() {
                   className="con_ico purple"
                   sx={{ fontSize: 45 }}
                 />
-                <a href="tel:+610449007723" className="con-det">
+                <a href="tel:+61449007723" className="con-det">
                   +61 0449007723
                 </a>
               </div>
