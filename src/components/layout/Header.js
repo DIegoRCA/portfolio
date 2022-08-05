@@ -1,8 +1,5 @@
 import React, {useState} from "react";
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from "react-bootstrap/Nav";
-import {Container} from "react-bootstrap";
-import Button from "react-bootstrap/button";
+import {Navbar, Nav, Container, Button} from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { CgFileDocument } from 'react-icons/cg';
 import { AiOutlineContacts,AiOutlineHome,AiOutlineFundProjectionScreen,AiOutlineUser } from "react-icons/ai";
