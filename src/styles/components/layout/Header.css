@@ -96,14 +96,14 @@
         }
 
 
-@media (min-width:1025px){
+
     .navbar-nav{
        margin-left: 40%;
     }
-    .nav-link{
+ .nav-item .nav-link{
+        font-family: 'Karla', sans-serif;
         padding:0.7rem 1em !important;
-        
-        color:white;
+        color: white !important;;
     }
     .navbar-nav .nav-item{
         position:relative;
@@ -136,7 +136,7 @@
     .navbar-nav .nav-item a:hover::after{
         width: 100%;
     }
-}
+
 
 @media (max-width:1025px){
     .navbar{
