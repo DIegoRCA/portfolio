@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
         <Container fluid className="home-section" id="home">
-          
+
           <Container className="home-content">
             <Row>
               <Col md={7} className="home-header">
@@ -36,6 +36,7 @@ function Home() {
             <Home2 className="home2"/>
             </Row>
             </Container>
+
         </Container>
         
     </>

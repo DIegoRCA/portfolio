@@ -3,6 +3,7 @@ import {Card} from "react-bootstrap";
 import MovieIcon from "@mui/icons-material/Movie";
 import SportsSoccerIcon from '@mui/icons-material/SportsSoccer';
 import ScreenSearchDesktopIcon from "@mui/icons-material/ScreenSearchDesktop";
+
 function AboutCard() {
   return (
     <Card className="quote-card-view">

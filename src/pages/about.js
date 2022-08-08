@@ -5,11 +5,12 @@ import Techstack from "../components/layout/About/Techstack";
 import Aboutcard from "../components/layout/About/AboutCard";
 import laptopImg from "../assets/download.png";
 import Toolstack from "../components/layout/About/Toolstack";
-import "../styles/components/pages/about.css"
+import "../styles/components/pages/about.css";
+
 function About() {
   return (
     <Container fluid className="about-section">
-    
+   
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
