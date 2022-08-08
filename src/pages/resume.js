@@ -34,7 +34,7 @@ function ResumeNew() {
 							className="cardmedia"
 							component="iframe"
 							height="1056px"
-							src="https://drive.google.com/file/d/1-fQ5YAMpvM47YXmQNiF_L4KaQl1Kct0eLZKYIRMbXkA/preview"
+							src="https://drive.google.com/file/d/1ym8GjIGp8BN7w6nxxEvzACOGhw_l3AXD/preview"
 						/>
 					</Card>
 				</Row>
