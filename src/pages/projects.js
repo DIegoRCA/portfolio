@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/layout/Projects/ProjectCards";
-import tictac from "../../src/assets/Projects/TIC-TACT-TOE.PNG";
+import tictac from "../../src/assets/Projects/TIC-TAC-TOE.png";
 import Smatbot from "../../src/assets/Projects/Smatbot.png";
 import todo from "../../src/assets/Projects/todo_.png";
 import Booking from "../../src/assets/Projects/Booking.png";
@@ -26,7 +26,7 @@ function Projects() {
 							description="A simple game where two players can play TIC TAC TOE & get the winner or draw."
 							techstack="HTML | CSS | JS"
 							link="#/"
-							git="#"
+							git="https://github.com/DIegoRCA/Tic-Tac_Toe-game"
 						/>
 					</Col>
 
