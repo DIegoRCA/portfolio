@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/layout/Projects/ProjectCards";
 import tictac from "../../src/assets/Projects/TIC-TAC-TOE.png";
-import Smatbot from "../../src/assets/Projects/Smatbot.png";
+import WebPage from "../../src/assets/Projects/AlchemyWebPage.png";
 import todo from "../../src/assets/Projects/todo_.png";
 import Booking from "../../src/assets/Projects/Booking.png";
 import '../styles/components/pages/projects.css';
@@ -24,7 +24,7 @@ function Projects() {
 							isBlog={false}
 							title="TIC TAC TOE"
 							description="A simple game where two players can play TIC TAC TOE & get the winner or draw."
-							techstack="HTML | CSS | JS"
+							techstack="HTML | CSS | JS | REACT"
 							link="https://tictactoexxx.herokuapp.com/"
 							git="https://github.com/DIegoRCA/Tic-Tac_Toe-game"
 						/>
@@ -32,13 +32,13 @@ function Projects() {
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={Smatbot}
+							imgPath={WebPage}
 							isBlog={false}
-							title="Clone of Smatbot.com"
-							description="Smatbot provides a facility to create a chatbot for all business needs."
-							techstack="HTML | CSS | JS"
-							link="#"
-							git="#"
+							title="Responsive Web"
+							description="Responsive webpage using react & express."
+							techstack="HTML | CSS | JS | REACT | EXPRESS"
+							link="https://alchemyfrontend.herokuapp.com/"
+							git="https://github.com/DIegoRCA/Bootstrap-Web"
 						/>
 					</Col>
 
