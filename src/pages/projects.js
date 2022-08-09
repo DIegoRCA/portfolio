@@ -25,7 +25,7 @@ function Projects() {
 							title="TIC TAC TOE"
 							description="A simple game where two players can play TIC TAC TOE & get the winner or draw."
 							techstack="HTML | CSS | JS"
-							link="#/"
+							link="https://tictactoexxx.herokuapp.com/"
 							git="https://github.com/DIegoRCA/Tic-Tac_Toe-game"
 						/>
 					</Col>
