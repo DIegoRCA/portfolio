@@ -4,7 +4,7 @@ import ProjectCard from "../components/layout/Projects/ProjectCards";
 import tictac from "../../src/assets/Projects/TIC-TAC-TOE.png";
 import WebPage from "../../src/assets/Projects/AlchemyWebPage.png";
 import todo from "../../src/assets/Projects/todo_.png";
-import Booking from "../../src/assets/Projects/Booking.png";
+import Ecommerce from "../../src/assets/Projects/Ecommerce.png";
 import '../styles/components/pages/projects.css';
 function Projects() {
 	return (
@@ -18,15 +18,15 @@ function Projects() {
 					Here are a few projects I've worked on recently.
 				</p>
 				<Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-					<Col md={4} className="project-card">
+				<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={tictac}
+							imgPath={Ecommerce}
 							isBlog={false}
-							title="TIC TAC TOE"
-							description="A simple game where two players can play TIC TAC TOE & get the winner or draw."
-							techstack="HTML | CSS | JS | REACT"
-							link="https://tictactoexxx.herokuapp.com/"
-							git="https://github.com/DIegoRCA/Tic-Tac_Toe-game"
+							title="Sample of E-COMMERCE"
+							description="Fully responsive e-commerce with a dinamic backend and payment method."
+							techstack="HTML | CSS | JS | React | Next | Stripe | Sanity"
+							link="https://ecommerce-diegorca.vercel.app/"
+							git="https://github.com/DIegoRCA/ecommerce"
 						/>
 					</Col>
 
@@ -44,27 +44,29 @@ function Projects() {
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={todo}
+							imgPath={tictac}
 							isBlog={false}
-							title="Todo App"
-							description="A todo app where users can add tasks, mark it as done, view completed tasks, change the status of tasks & delete the tasks."
-							techstack="HTML | CSS | JS | React"
-							link="#"
-							git="#"
+							title="TIC TAC TOE"
+							description="A simple game where two players can play TIC TAC TOE & get the winner or draw."
+							techstack="HTML | CSS | JS | REACT"
+							link="https://tictactoexxx.herokuapp.com/"
+							git="https://github.com/DIegoRCA/Tic-Tac_Toe-game"
 						/>
 					</Col>
 
 					<Col md={4} className="project-card">
 						<ProjectCard
-							imgPath={Booking}
+							imgPath={todo}
 							isBlog={false}
-							title="Clone of Booking.com"
-							description="Booking.com is a Dutch online travel agency for lodging reservations & other travel products, and a subsidiary of Booking Holdings."
-							techstack="HTML | CSS | JS | React | Redux | Material UI"
-							link="#"
-							git="#"
+							title="Todo App"
+							description="A todo app where users can add tasks, mark it as done, view completed tasks, change the status of tasks & delete the tasks."
+							techstack="HTML | CSS | JS | React"
+							link="https://to-do-list-sand-chi.vercel.app/"
+							git="https://github.com/DIegoRCA/ToDoList"
 						/>
 					</Col>
+
+
 				</Row>
 			</Container>
 		</Container>
