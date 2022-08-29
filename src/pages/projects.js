@@ -39,7 +39,7 @@ function Projects() {
 							title="Responsive Web"
 							description="Responsive webpage using react & express."
 							techstack="HTML | CSS | JS | REACT | EXPRESS"
-							link="https://alchemyfrontend.herokuapp.com/"
+							link="https://web-page-diegorca.vercel.app/"
 							git="https://github.com/DIegoRCA/Bootstrap-Web"
 						/>
 					</Col>
