@@ -6,6 +6,7 @@ import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import PlaceIcon from "@mui/icons-material/Place";
 import "../styles/components/pages/contact.css";
+
 function Contact() {
   return (
     <section>

@@ -159,10 +159,13 @@
   .icon-colour {
     color: #ff7e05 !important;
   }
+
 .conHome2{
+margin-top: 2rem;
 justify-content:center;
 }
-  @media (max-width: 767px) {
+
+@media (max-width: 767px) {
     .myAvtar {
       padding-top: 2em !important;
       padding-bottom: 2em !important;

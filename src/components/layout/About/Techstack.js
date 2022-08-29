@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiJsBadge, DiReact, DiNodejs, DiCss3, DiHtml5 } from "react-icons/di";
-import {SiAdobe, SiMysql} from "react-icons/si"
+import {SiAdobe, SiMysql} from "react-icons/si";
+
 function Techstack() {
 	return (
 		<Row style={{ justifyContent: "center", paddingBottom: "50px" }}>

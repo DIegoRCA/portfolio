@@ -9,8 +9,9 @@ function ResumeNew() {
 	const [width, setWidth] = useState(1200);
 
 	useEffect(() => {
+		
 		setWidth(window.innerWidth);
-	}, []);
+	},[]);
 
 	return (
 		<div>

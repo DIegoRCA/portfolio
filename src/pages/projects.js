@@ -6,6 +6,8 @@ import WebPage from "../../src/assets/Projects/AlchemyWebPage.png";
 import todo from "../../src/assets/Projects/todo_.png";
 import Ecommerce from "../../src/assets/Projects/Ecommerce.png";
 import '../styles/components/pages/projects.css';
+
+
 function Projects() {
 	return (
 		<Container fluid className="project-section">

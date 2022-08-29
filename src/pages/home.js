@@ -5,6 +5,7 @@ import { Type } from "../components/layout/Type";
 import Tilt from "react-parallax-tilt";
 import Diego from "../assets/diego.gif";
 import "../styles/components/pages/home.css";
+
 function Home() {
   return (
     <>
@@ -29,8 +30,9 @@ function Home() {
                 <img src={Diego} alt="home pic" className="img-fluid"/>
                 </Tilt>
               </Col>
-            </Row>            
+            </Row>
           </Container>
+
           <Container className="conHome2">
             <Row className="rowHome2 d-flex w-100">
             <Home2 className="home2"/>
