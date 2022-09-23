@@ -20,7 +20,7 @@ function ResumeNew() {
 					<Button 
 						className="filebutton"
 						href={
-							"https://drive.google.com/uc?export=download&id=1MFkC_GSMgHrutdjpa8ujUFFJcM3e8hON"
+							"https://drive.google.com/uc?export=download&id=1fxnRiXpLopzRhq3LM4TB0grMnTcd2XB3"
 						}
 						target="_blank"
 					>
@@ -44,7 +44,7 @@ function ResumeNew() {
 					<Button
 						className="filebutton"
 						href={
-							"https://drive.google.com/uc?export=download&id=1MFkC_GSMgHrutdjpa8ujUFFJcM3e8hON"
+							"https://drive.google.com/uc?export=download&id=1fxnRiXpLopzRhq3LM4TB0grMnTcd2XB3"
 						}
 						target="_blank"
 					>
